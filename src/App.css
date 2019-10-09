@@ -20,3 +20,17 @@
 .App-link {
   color: #09d3ac;
 }
+
+footer {
+  height: 10vmin;
+  background-color: #09d3ac;
+  text-align: center;
+  padding: 40px;
+}
+
+header {
+  height: 10vmin;
+  background-color: #09d3ac;
+  text-align: center;
+  padding: 40px;
+}
