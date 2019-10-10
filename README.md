@@ -1,3 +1,18 @@
+# Introduction
+
+A simple todo app that's using libraries and techniques that are way too overkill for such a small app, in fact, it's such a small thing that it can't even be called an app. But since I am out of ideas and overkilling is better than overthinking, I'm doing this. YARP!
+
+## Using
+
+* [React](https://reactjs.org/)
+* [Redux](https://redux.js.org/)
+* [Redux-Saga](https://github.com/redux-saga/redux-saga)
+* [Styled-Components](https://www.styled-components.com/docs)
+* [Docker](https://docs.docker.com/) (Maybe!)
+* [Jest](https://jestjs.io/docs/en/getting-started.html) (Maybe!)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
