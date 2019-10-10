@@ -1,16 +1,21 @@
 import React from 'react'
 import Footer from './Footer'
-import Header from './Header'
+import Navbar from './Navbar'
 import Main from './Main'
+import styled from 'styled-components'
 
 const Layout = () => {
   return (
-    <div>
-      <Header />
+    <LayoutContainer>
+      <Navbar />
       <Main />
       <Footer />
-    </div>
+    </LayoutContainer>
   )
 }
+
+const LayoutContainer = styled.div`
+  display: grid;
+`
 
 export default Layout

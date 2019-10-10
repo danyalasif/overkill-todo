@@ -12,6 +12,23 @@ A simple todo app that's using libraries and techniques that are way too overkil
 * [Jest](https://jestjs.io/docs/en/getting-started.html) (Maybe!)
 
 
+# Running
+* Install yarn/npm
+* Do `yarn start` or `npm start`
+* Enjoy
+
+OR
+
+* Install and run docker service
+* Build the docker image: `docker build ./ --tag=overkill-todo`
+* Run the image: `docker run -p 3000:8080 overkill-todo`
+* Access it from `localhost:3000`
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
