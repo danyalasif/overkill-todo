@@ -8,11 +8,25 @@ A simple todo app that's using libraries and techniques that are way too overkil
 * [Redux](https://redux.js.org/)
 * [Redux-Saga](https://github.com/redux-saga/redux-saga)
 * [Styled-Components](https://www.styled-components.com/docs)
-* [Docker](https://docs.docker.com/) (Maybe!)
+* [Docker](https://docs.docker.com/)
 * [Jest](https://jestjs.io/docs/en/getting-started.html) (Maybe!)
+* [OpenCV](https://opencv.org/)
 
 
-# Running
+## Roadmap
+
+* Basic Todo Listing
+  * CRUD Operations
+* Redux integration
+* Firebase integration
+* Redux Saga integration
+* Docker setup
+* Kubernetes setup
+* Upload Images and Videos
+* OpenCV for facial recognition and creating tags of people faces so if the same person is added next time it's recognized
+
+
+## Setup and Run
 * Install yarn/npm
 * Do `yarn start` or `npm start`
 * Enjoy
