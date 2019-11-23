@@ -2,10 +2,8 @@ import React from 'react'
 
 import Layout from './components/Layout'
 import { Provider } from 'react-redux'
-import { createStore } from 'redux'
-import rootReducer from './store/reducers'
+import {store} from "./store"
 
-const store = createStore(rootReducer)
 
 // import './App.css'
 

@@ -1,4 +1,7 @@
-const todos = (state = [], action) => {
+import {todos as todosSample} from '../../sample-data'
+
+
+const todos = (state = [...todosSample], action) => {
   switch (action.type) {
     case 'ADD_TODO':
       return [
