@@ -7,9 +7,11 @@ import styled from 'styled-components'
 const Layout = () => {
   return (
     <LayoutContainer>
-      <Navbar />
-      <Main />
-      <Footer />
+      <React.Suspense fallback={'loading...'}>
+        <Navbar />
+        <Main />
+        <Footer />
+      </React.Suspense>
     </LayoutContainer>
   )
 }

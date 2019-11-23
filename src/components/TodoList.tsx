@@ -1,9 +1,12 @@
 import React from 'react'
-import { todos } from '../sample-data'
 import TodoItem from './TodoItem'
 import styled from 'styled-components'
+import {useSelector} from 'react-redux'
 
 const TodoList = () => {
+
+  const todos = useSelector(state => state.todos)
+
   return (
     <Container>
       {todos.map(({ ID, message, title }) => (
