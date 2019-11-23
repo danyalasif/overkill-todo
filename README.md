@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14672105-c54c-4f1c-afba-70b6640beda3/deploy-status)](https://app.netlify.com/sites/overkill-todo/deploys)
+
 # Introduction
 
 A simple todo app that's using libraries and techniques that are way too overkill for such a small app, in fact, it's such a small thing that it can't even be called an app. But since I am out of ideas and overkilling is better than overthinking, I'm doing this. YARP!
